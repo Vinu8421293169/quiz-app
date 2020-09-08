@@ -1,4 +1,3 @@
-sessionStorage.setItem("point", 0); //update
 window.onload = function () {
   show(0);
 };

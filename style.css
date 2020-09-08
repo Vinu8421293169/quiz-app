@@ -150,3 +150,8 @@ body {
   text-align: center;
   margin-top: 15px;
 }
+
+h3 {
+  color: white;
+  align-items: center;
+}
