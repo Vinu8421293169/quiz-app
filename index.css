@@ -1,0 +1,98 @@
+* {
+  font-family: "Roboto", sans-ser;
+}
+body {
+  align-items: center;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+.box {
+  align-items: center;
+  background-color: white !important;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  margin: 3%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+}
+
+.b1 .image-container {
+  background-color: #f5cce8;
+}
+.b2 .image-container {
+  background-color: #84afe6;
+}
+.b3 .image-container {
+  background-color: #16f4d0;
+}
+.b1 div {
+  width: 100%;
+  height: 50%;
+}
+
+.box:hover {
+  transition-delay: 1s;
+  transition: transform 2s;
+  transform: scale(1.1);
+}
+
+.image-container {
+  height: 50%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+button {
+  font-size: 24px;
+  text-decoration: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 8%;
+  }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 8%;
+  }
+}
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  section {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+button {
+  margin-top: 30px;
+  border-radius: 27px;
+  padding: 8% 16%;
+}
